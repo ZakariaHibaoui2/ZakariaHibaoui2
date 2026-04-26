@@ -18,5 +18,5 @@
 - ☁️ [AWS Cloud Infrastructure Labs](https://github.com/ZakariaHibaoui2/aws-cloud-infrastructure-labs)
 
 ## 📫 Contact
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/zakaria-hibaoui)
+https://www.linkedin.com/in/zakaria-hibaoui-08b235337/?skipRedirect=true
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:zyhibaoui@gmail.com)
