@@ -55,6 +55,35 @@
 
 ---
 
+### 🛡️ AI Security & Cybersecurity engineering
+
+A suite of 20 production-grade tools — each with tests, CI, and honest, measured results. Offensive techniques are included only for defence/research.
+
+| Project | What it does | Highlights |
+|---|---|---|
+| [ai-intrusion-detection-system](https://github.com/ZakariaHibaoui2/ai-intrusion-detection-system) | Network IDS: RF for known attacks + Isolation Forest for zero-days | macro-F1 0.995, catches unseen attack families · FastAPI |
+| [phishing-url-detector](https://github.com/ZakariaHibaoui2/phishing-url-detector) | Explainable phishing-URL classifier | F1 0.98, ROC-AUC 0.999, typosquat/homoglyph detection |
+| [phishing-email-analyzer](https://github.com/ZakariaHibaoui2/phishing-email-analyzer) | SPF/DKIM/DMARC + NLP email triage | recall 100%, explained risk score |
+| [log-anomaly-detector](https://github.com/ZakariaHibaoui2/log-anomaly-detector) | auth.log/nginx analytics, MITRE-mapped | rules + Isolation Forest, zero FPs on demo |
+| [mini-siem](https://github.com/ZakariaHibaoui2/mini-siem) | SIEM with Sigma-style YAML rules + correlation | match/threshold/sequence, alert lifecycle API |
+| [llm-prompt-injection-guard](https://github.com/ZakariaHibaoui2/llm-prompt-injection-guard) | Prompt-injection firewall (OWASP LLM01) | obfuscation-resistant, 14 detectors, canary tokens |
+| [malware-static-triage](https://github.com/ZakariaHibaoui2/malware-static-triage) | Static triage: PE parser, entropy, YARA-style rules | validated clean on real Windows binaries |
+| [secrets-scanner](https://github.com/ZakariaHibaoui2/secrets-scanner) | Leaked-credential scanner (code + git history) | 21 detectors, SARIF, pre-commit, 0 deps |
+| [dependency-vulnerability-scanner](https://github.com/ZakariaHibaoui2/dependency-vulnerability-scanner) | SCA via OSV.dev + CVSS 3.1 + CycloneDX SBOM | branch-aware fix suggestions |
+| [web-security-auditor](https://github.com/ZakariaHibaoui2/web-security-auditor) | Grades sites A+→F (HSTS/CSP/cookies/TLS) | tested live on github/wikipedia/… |
+| [honeypot-sensor](https://github.com/ZakariaHibaoui2/honeypot-sensor) | asyncio SSH/Telnet/FTP/HTTP honeypot | credential capture + MITRE analytics |
+| [threat-intel-ioc-extractor](https://github.com/ZakariaHibaoui2/threat-intel-ioc-extractor) | IOC extraction + ATT&CK tagging + STIX 2.1 | defang-aware, false-positive filtered |
+| [ai-soc-copilot](https://github.com/ZakariaHibaoui2/ai-soc-copilot) | LLM alert triage (Claude/Ollama/offline) | prompt-injection guardrails, deterministic scoring |
+| [image-forgery-detector](https://github.com/ZakariaHibaoui2/image-forgery-detector) | Forensics: copy-move, splice, ELA | validated on real wallpapers, heatmaps |
+| [adversarial-ml-lab](https://github.com/ZakariaHibaoui2/adversarial-ml-lab) | FGSM/PGD attacks + adversarial training | 35%→77% robust acc, gradient-checked |
+| [federated-learning-dp](https://github.com/ZakariaHibaoui2/federated-learning-dp) | FedAvg + DP-SGD + RDP accountant | membership-inference leakage measured vs ε |
+| [dga-domain-detector](https://github.com/ZakariaHibaoui2/dga-domain-detector) | Malware DGA detection + DNS hunting | AUC 0.99, finds infected hosts & C2 |
+| [fraud-detection-system](https://github.com/ZakariaHibaoui2/fraud-detection-system) | Payment fraud, leak-free, cost-optimal | 82% loss reduction, PR-AUC 0.95 |
+| [secure-auth-service](https://github.com/ZakariaHibaoui2/secure-auth-service) | Auth API: scrypt, JWT, TOTP, token rotation | RFC 6238 vectors, anti-enumeration |
+| [ransomware-behavior-detector](https://github.com/ZakariaHibaoui2/ransomware-behavior-detector) | Behavioural detection + canary tripwires | 0 FP on backup/build/media workloads |
+
+---
+
 ### ⭐ Featured projects
 
 | Project | Description | Stack |
